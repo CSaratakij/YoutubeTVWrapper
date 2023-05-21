@@ -76,8 +76,11 @@
   },
   "build": {
     "appId": "com.csaratakij.youtubetvwrapper",
-    "linux" : {
+    "linux": {
       "target": "AppImage"
+    },
+    "win": {
+      "target": "portable"
     }
   },
   "author": "CSaratakij",
