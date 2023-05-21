@@ -8,7 +8,12 @@ const createWindow = () => {
         width: 1280,
         height: 720,
         frame: false,
-        fullscreen: true
+        fullscreen: true,
+        alwaysOnTop: true,
+        webPreferences: {
+            pageVisibility: true,
+            backgroundThrottling: false,
+        },
     })
 
     mainWindow.loadURL(youtubeTVUrl,
